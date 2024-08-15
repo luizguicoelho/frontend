@@ -68,7 +68,58 @@ h1{
     left: 400px;
     color: rgb(39, 189, 151);
     border-radius: 10px;
+
 }
+
+
+.h15{
+    position: relative;
+    text-align: center;
+    left: 30px;
+    height: 90px;
+    width: clamp(200px, 95%, 1400px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px ;
+    color:#599c2c ;
+
+}
+
+.h17{
+    position: relative;
+    text-align: center;
+    left: 30px;
+    height: 100px;
+    width: clamp(200px, 95%, 1400px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:#599c2c ;
+
+}
+
+.h18{
+    position: relative;
+    text-align: center;
+    left: 30px;
+    height: 100px;
+    width: clamp(200px, 95%, 1400px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:#599c2c ;
+}
+
+.h16{
+    position: relative;
+    text-align: center;
+    left: 30px;
+    height: 150px;
+    width: clamp(200px, 95%, 1400px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:#599c2c;
+}
+
+
+
 
 a{
     position: relative;
@@ -189,6 +240,16 @@ a:hover{
     transform: rotate(0deg);
     margin-top: -57px;
     margin-left: 1100px;
+}
+
+.context{
+
+    position: relative;
+    text-align: center;
+    left: 30px;
+    height: 50px;
+    width: clamp(200px, 95%, 1400px);
+
 }
 
 .label-floatl{
