@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=";gravar_dados.php" method="post">
+        <hr>1
+            <p>Nome:<input type="text" name="nome" /></p>
+            <p>Senha:<input type="password" name="senha" size="15" /></p>
+            <input type="submit" name="enviar" value="Enviar">
+        <hr>2
+            <p>Escolaridade:
+                <select name="escolaridade">
+                    <option value="em">Ensino Médio</option>
+                    <option value="nt">Nível Técnico</option>
+                    <option value="ns">Nível Superior</option>
+                </select>
+            </p>
+        <hr>3
+            <input type="radio" name="cargo" value="1" checked/>Gêrencia
+            <input type="radio" name="cargo" value="2" />Financeiro
+            <input type="radio" name="cargo" value="3" />Recepção
+            <input type="radio" name="cargo" value="4" />Administrativo
+        <hr>4
+            <input type="checkbox" name="area1" value="com" />Computção
+            <input type="checkbox" name="area2" value="eng" />Engenharia
+            <input type="checkbox" name="area3" value="bio" />Biologia
+            <input type="checkbox" name="area4" value="psi" />Psicologia
+        <hr>5
+            <input type="reset" value="Limpar" /> 
+        <hr>6
+            <p>Observaçoẽs:<textarea name="obs" cols="20" rows="5"></textarea></p>
+        <hr>7
+            <label>Escolaridade:
+
+            </label>
+    </form>
+</body>
+</html>
