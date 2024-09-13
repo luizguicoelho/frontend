@@ -8,120 +8,175 @@
 </head>
 <body class="body">
     <background class="background">
-        <form action=";gravar_dados.php" method="post">
-            <hr>1
-                <p>Nome:<input type="text" name="nome" /></p>
-                <p>Senha:<input type="password" name="senha" size="15" /></p>
-                <input type="submit" name="enviar" value="Enviar">
-                <br>
-                <br>
-            <hr>2
-            <br>
-            <br>
-                <p>Escolaridade:
-                    <select name="escolaridade">
-                        <option value="em">Ensino Médio</option>
-                        <option value="nt">Nível Técnico</option>
-                        <option value="ns">Nível Superior</option>
-                    </select>
-                </p>
-                <br>
-                <br>
-            <hr>3
-            <br>
-            <br>
-                <input type="radio" name="cargo" value="1" checked/>Gêrencia
-                <input type="radio" name="cargo" value="2" />Financeiro
-                <input type="radio" name="cargo" value="3" />Recepção
-                <input type="radio" name="cargo" value="4" />Administrativo
-                <br>
-                <br>
-            <hr>4
-            <br>
-            <br>
-                <input type="checkbox" name="area1" value="com" />Computção
-                <input type="checkbox" name="area2" value="eng" />Engenharia
-                <input type="checkbox" name="area3" value="bio" />Biologia
-                <input type="checkbox" name="area4" value="psi" />Psicologia
-                <br>
-                <br>
-            <hr>5
-            <br>
-            <br>
-                <input type="reset" value="Limpar" /> 
-                <br>
-                <br>
-            <hr>6
-            <br>
-            <br>
-                <p>Observaçoẽs:<textarea name="obs" cols="20" rows="5"></textarea></p>
-                <br>
-                <br>
-            <hr>7
-            <br>
-            <br>
-                <label>Escolaridade:
-                    <select name="escolaridade">
-                        <option value="en">Ensino Médio</option>
-                        <option value="nt">Nível Técnico</option>
-                        <option value="ns">Nível Superior</option>
-                    </select>
-                </label>
-                <br>
-                <br>
-            <hr>8
-            <br>
-            <br>
-                <p>Dados Pessoais</p>
-                <label>nome:
-                    <input type="text" name="nome" />
-                </label>
-                <br>
-                <label>Idade:
-                    <input type="text" name="idade" />
-                </label>   
-                <p>Dados Profissionais</p>
-                <label>Escolaridade:
-                    <select name="escolaridade">
-                        <option value="em">Ensino Médio</option>
-                        <option value="nt">Nível Técnico</option>
-                        <option value="ns">Nível Superior</option>
-                    </select>
-                </label> 
-                <br />	
-                <label>Área de atuação
-                     <input type="radio" name="cargo" value="1" checked> Gerência
-                     <input type="radio" name="cargo" value="2" > Financeiro
-                     <input type="radio" name="cargo" value="3" > Recepção
-               </label>
-               <br>
-               <br>
-            <hr>    9
-            <br>
-            <br>
-            <fieldset>
-                <legend>Dados pessoais</legend>
-                <label>Nome:<input type="text" name="nome" /></label><br />
-                <label>Idade:<input type="text" name="idade" /></label><br />
-            </fieldset>
-            <fieldset>
-                <legend>Dados profissionais</legend>
-                <label>Escolaridade:
-                <select name="escolaridade">
-                    <option value="em"> Ensino Médio </option>
-                    <option value="nt"> Nível Técnico </option>
-                    <option value="ns"> Nível Superior </option>
-                </select> </label> <br>
-                <label>Área de atuação
-                    <input type="radio" name="cargo" value="1" checked> Gerência
-                    <input type="radio" name="cargo" value="2" > Financeiro
-                    <input type="radio" name="cargo" value="3" > Recepção
-                </label> 
-            </fieldset>
-            <br>
-            <br>
-            <hr> 10
-        </form>
+        <div class="container">
+            <div class="card">
+                <form action="formulario" method="post">
+                    <hr>1
+                    <p>Nome:<input type="text" name="nome" /></p>
+                    <p>Senha:<input type="password" name="senha" size="15" /></p>
+                    <input type="submit" name="enviar" value="Enviar">
+                    <br>
+                    <br>
+                </form>      
+                <form action="formulario" method="post">
+    
+                    <hr>2
+                    <br>
+                    <br>
+                        <p>Escolaridade:
+                            <select name="escolaridade">
+                                <option value="em">Ensino Médio</option>
+                                <option value="nt">Nível Técnico</option>
+                                <option value="ns">Nível Superior</option>
+                            </select>
+                        </p>
+                        <br>
+                        <br>
+                </form>   
+                <form action="formulario" method="post">  
+                    <hr>3
+                    <br>
+                    <br>
+                        <input type="radio" name="cargo" value="1" checked/>Gêrencia
+                        <input type="radio" name="cargo" value="2" />Financeiro
+                        <input type="radio" name="cargo" value="3" />Recepção
+                        <input type="radio" name="cargo" value="4" />Administrativo
+                        <br>
+                        <br>
+                </form>
+                <form action="formulario" method="post">   
+                    <hr>4
+                    <br>
+                    <br>
+                        <input type="checkbox" name="area1" value="com" />Computção
+                        <input type="checkbox" name="area2" value="eng" />Engenharia
+                        <input type="checkbox" name="area3" value="bio" />Biologia
+                        <input type="checkbox" name="area4" value="psi" />Psicologia
+                        <br>
+                        <br>
+                </form> 
+                <form action="formulario" method="post">     
+                    <hr>5
+                    <br>
+                    <br>
+                        <input type="reset" value="Limpar" /> 
+                        <br>
+                        <br>
+                </form>
+                <form action="formulario" method="post">
+                    <hr>6
+                    <br>
+                    <br>
+                        <p>Observaçoẽs:<textarea name="obs" cols="20" rows="5"></textarea></p>
+                        <br>
+                        <br>
+                </form>
+                <form action="formulario" method="post">
+                    <hr>7
+                        <br>
+                        <br>
+                        <label>Escolaridade:
+                            <select name="escolaridade">
+                                <option value="en">Ensino Médio</option>
+                                <option value="nt">Nível Técnico</option>
+                                <option value="ns">Nível Superior</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                </form>
+                <form action="formulario" method="post">        
+                    <hr>8
+                        <br>
+                        <br>
+                        <p>Dados Pessoais</p>
+                        <label>nome:
+                            <input type="text" name="nome" />
+                        </label>
+                        <br>
+                        <label>Idade:
+                            <input type="text" name="idade" />
+                        </label>   
+                        <p>Dados Profissionais</p>
+                        <label>Escolaridade:
+                            <select name="escolaridade">
+                                <option value="em">Ensino Médio</option>
+                                <option value="nt">Nível Técnico</option>
+                                <option value="ns">Nível Superior</option>
+                            </select>
+                        </label> 
+                        <br />	
+                        <label>Área de atuação
+                            <input type="radio" name="cargo" value="1" checked> Gerência
+                            <input type="radio" name="cargo" value="2" > Financeiro
+                            <input type="radio" name="cargo" value="3" > Recepção
+                        </label>
+                        <br>
+                        <br>
+                </form>
+                <form action="formulario" method="post">        
+                    <hr>    9
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <label>Nome:<input type="text" name="nome" /></label><br />
+                            <label>Idade:<input type="text" name="idade" /></label><br />
+                        </fieldset>
+                        <fieldset>
+                            <legend>Dados profissionais</legend>
+                            <label>Escolaridade:
+                                    <select name="escolaridade">
+                                    <option value="em"> Ensino Médio </option>
+                                    <option value="nt"> Nível Técnico </option>
+                                    <option value="ns"> Nível Superior </option>
+                                </select> </label> <br>
+                            <label>Área de atuação
+                                <input type="radio" name="cargo" value="1" checked> Gerência
+                                <input type="radio" name="cargo" value="2" > Financeiro
+                                <input type="radio" name="cargo" value="3" > Recepção
+                            </label> 
+                        </fieldset>
+                        <br>
+                        <br>
+                </form>        
+                    <hr> 10  
+                </form>
+                <form class="formulario" method="post"> 
+                    <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+                    
+                    <div class="field">
+                        <label for="nome">Seu Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required> 
+                    </div>
+                    
+                    <div class="field">
+                        <label for="telefone">Seu Telefone:</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone"> 
+                    </div>
+             
+                    <div class="field">
+                        <label for="email">Seu E-Mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required> 
+                    <div>        
+                    <div class="field radiobox">
+                        <span>Deseja receber nossas novidades?</span>
+                        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label> 
+                    </div>
+                    <div class="field">
+                        <label for="mensagem">Sua mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                    </div>
+                    <input type="submit" name="acao" value="Enviar">
+                </form> 
+
+            </div>
+
+            
+            
+        
+        </div>    
     </background>    
 </body>
 </html>

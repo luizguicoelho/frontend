@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <form action="formulario" method="post">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome:<input type="text" name="nome" /></label><br />
+            <label>Idade:<input type="text" name="idade" /></label><br />
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label>Escolaridade:
+                    <select name="escolaridade">
+                    <option value="em"> Ensino Médio </option>
+                    <option value="nt"> Nível Técnico </option>
+                    <option value="ns"> Nível Superior </option>
+                </select> </label> <br>
+            <label>Área de atuação
+                <input type="radio" name="cargo" value="1" checked> Gerência
+                <input type="radio" name="cargo" value="2" > Financeiro
+                <input type="radio" name="cargo" value="3" > Recepção
+            </label> 
+        </fieldset>
+        <br>
+        <br>
+    </form>      
+</body>
+</html>
